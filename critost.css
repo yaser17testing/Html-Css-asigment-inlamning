@@ -1,0 +1,2335 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@300;400;500;700;900&display=swap");
+.h5 {
+  color: #191919;
+}
+
+/*Menu section*/
+.btn-yellow {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.btn-yellow i {
+  margin-left: 8px;
+  font-size: 11px;
+}
+.btn-yellow:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+
+header {
+  padding: 10px;
+  background-color: #F0EFE9;
+}
+header img {
+  position: relative;
+  bottom: 40px;
+  left: 60px;
+  height: 150px;
+  width: 150px;
+}
+
+#cont {
+  display: flex;
+  gap: 70px;
+}
+#cont .menu {
+  position: relative;
+  left: 30px;
+  width: 300px;
+  right: 90px;
+  flex: 1;
+}
+#cont .top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #DAD9D3;
+  padding-bottom: 10px;
+}
+#cont .contact {
+  display: flex;
+}
+#cont .contact .content-box {
+  padding-right: 30px;
+  margin-right: 30px;
+  border-right: 1px #DAD9D3 solid;
+}
+#cont .contact .content-box i {
+  font-size: 1.1em;
+  margin-right: 5px;
+}
+#cont .contact .content-box.last {
+  border: none;
+}
+#cont .social a {
+  color: #191919;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+#cont .social a:hover {
+  color: #666666;
+}
+
+.undermenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.undermenu nav a {
+  color: #191919;
+  text-decoration: none;
+  margin-right: 35px;
+}
+.undermenu nav a:hover {
+  text-decoration: underline;
+}
+
+/*hero section*/
+.features {
+  background-color: #F0EFE9;
+  padding-top: 1px;
+}
+
+.herograndpa {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1000px;
+  height: 500px;
+  background-color: #F0EFE9;
+}
+.herograndpa .blix img {
+  position: relative;
+  right: 240px;
+  bottom: 80px;
+  width: 600px;
+  height: 230px;
+}
+.herograndpa .lefting {
+  position: relative;
+  bottom: 10px;
+  left: 70px;
+  position: relative;
+  width: 420px;
+  height: 400px;
+}
+.herograndpa .lefting h1 {
+  position: relative;
+  width: 415px;
+  height: 200px;
+  top: 30px;
+  font-family: "DM Sans";
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #191919;
+}
+.herograndpa .lefting p {
+  position: relative;
+  top: 15px;
+  width: 420px;
+  height: 70px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.herograndpa .lefting .knappconsulting {
+  position: relative;
+  left: 0px;
+  top: 5px;
+  width: 150px;
+  height: 50px;
+}
+.herograndpa .lefting .knappconsulting .btn-consult {
+  position: relative;
+  top: 5px;
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.herograndpa .lefting .knappconsulting .btn-consult i {
+  margin-left: 4px;
+  font-size: 12px;
+}
+.herograndpa .lefting .knappconsulting .btn-consult:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+.herograndpa .lefting .knapplearn {
+  position: relative;
+  left: 140px;
+  bottom: 45px;
+  width: 170px;
+  height: 50px;
+}
+.herograndpa .lefting .knapplearn .btn-Learn {
+  position: relative;
+  left: 10px;
+  top: 5px;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.herograndpa .lefting .knapplearn .btn-Learn i {
+  margin-left: 4px;
+  font-size: 0.9em;
+}
+.herograndpa .lefting .knapplearn .btn-Learn:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+.herograndpa .righting {
+  width: 550px;
+  height: 460px;
+}
+.herograndpa .righting .hero {
+  position: relative;
+  left: 50px;
+  width: 400px;
+  height: 500px;
+}
+
+/*Fem Loggo Märken section*/
+.Grejer {
+  position: relative;
+  left: 60px;
+  width: 850px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Grejer .paket {
+  height: 100px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.Grejer .paket img {
+  width: 130px;
+  height: 150px;
+}
+
+/*Our Account is trusted by thousand of companies section*/
+.feutares .container .mommy {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid: 5px;
+  width: 1000px;
+  height: 430px;
+  border-color: rgba(25, 25, 25, 0.2);
+  border-width: 1.2000000477px;
+  border-style: solid;
+  border-radius: 2px;
+  background: #ffffff;
+  flex-wrap: wrap;
+}
+.feutares .container .mommy .main-div {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  height: 350px;
+  width: 400px;
+  padding: 80px;
+}
+.feutares .container .mommy .main-div .rubrikmaintext {
+  position: relative;
+  right: 10px;
+  bottom: 20px;
+  width: 260px;
+  height: 140px;
+}
+.feutares .container .mommy .main-div .rubrikmaintext h4 {
+  position: relative;
+  bottom: 5px;
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.feutares .container .mommy .main-div .rubrikmaintext p {
+  position: relative;
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.feutares .container .mommy #underett {
+  position: relative;
+}
+.feutares .container .mommy #undertva {
+  position: relative;
+}
+.feutares .container .mommy .small-div {
+  position: relative;
+  top: 30px;
+  right: 90px;
+  height: 180px;
+  width: 200px;
+}
+.feutares .container .mommy .small-div .tecken {
+  position: relative;
+  top: 30px;
+  height: 30px;
+  width: 30px;
+}
+.feutares .container .mommy .small-div .tecken i {
+  font-size: 20px;
+}
+.feutares .container .mommy .small-div h5 {
+  position: relative;
+  top: 40px;
+  width: 160px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 23px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.feutares .container .mommy .small-div p {
+  position: relative;
+  height: 50px;
+  width: 170px;
+  top: 30px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 15px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.feutares .container .mommy .knappeni {
+  position: relative;
+  height: 50px;
+  width: 295px;
+  top: 30px;
+  position: relative;
+  right: 30px;
+}
+.feutares .container .mommy .knappeni .btn-second {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 85px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.feutares .container .mommy .knappeni .btn-second i {
+  margin-left: 4px;
+  font-size: 0.9em;
+}
+.feutares .container .mommy .knappeni .btn-second:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+
+/*About company section*/
+.AboutAbout .container .grandpa {
+  margin-top: 80px;
+  position: relative;
+  left: 70px;
+  width: 850px;
+  display: grid;
+  height: 450px;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.AboutAbout .container .Textbox {
+  position: relative;
+  left: 10px;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+}
+.AboutAbout .container .Textbox .rubrik {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+.AboutAbout .container .Textbox h4 {
+  position: relative;
+  bottom: 10px;
+  height: 100px;
+  width: 300px;
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 27px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.AboutAbout .container .Textbox .undertext {
+  height: 70px;
+  width: 290px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.AboutAbout .container .Textbox .undertext2 {
+  height: 80px;
+  width: 290px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.AboutAbout .container .Textbox .knapp1 {
+  position: relative;
+  bottom: 0px;
+  width: 130px;
+  height: 40px;
+  border-radius: 30%;
+}
+.AboutAbout .container .Textbox .knapp1 .btn-about {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.AboutAbout .container .Textbox .knapp1 .btn-about i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.AboutAbout .container .Textbox .knapp1 .btn-about:hover {
+  background-color: white;
+  border: 1px solid #191919;
+  color: #191919;
+}
+.AboutAbout .container .Textbox .knapp2 {
+  position: relative;
+  width: 135px;
+  height: 40px;
+  border-radius: 0%;
+  left: 140px;
+  bottom: 40px;
+}
+.AboutAbout .container .Textbox .knapp2 p {
+  position: relative;
+  bottom: 18px;
+  left: 50px;
+  height: 40px;
+  width: 60px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 16px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+}
+.AboutAbout .container .Textbox .knapp2 .btn-abtwo {
+  position: relative;
+  right: 40px;
+  background-color: white;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 7px 9px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.AboutAbout .container .Textbox .knapp2 .btn-abtwo i {
+  margin-left: 3px;
+  font-size: 0.9em;
+}
+.AboutAbout .container .Textbox .knapp2 .btn-abtwo:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+.AboutAbout .container .blixtimg {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  left: 50px;
+  z-index: 2;
+  bottom: 480px;
+}
+.AboutAbout .container .blixtimg img {
+  width: 100px;
+}
+.AboutAbout .container .aboutus {
+  position: relative;
+  left: 50px;
+}
+.AboutAbout .container .aboutus img {
+  height: 80%;
+  width: 71%;
+}
+.AboutAbout .container .aboutus .boxenibild {
+  position: relative;
+  height: 120px;
+  width: 215px;
+  background-color: #BEEBFF;
+  z-index: 1;
+  right: 30px;
+  bottom: 150px;
+}
+.AboutAbout .container .aboutus .boxenibild .namn {
+  position: relative;
+  left: 15px;
+  top: 20px;
+  height: 35px;
+  width: 180px;
+}
+.AboutAbout .container .aboutus .boxenibild .namn .black {
+  color: #191919;
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+}
+.AboutAbout .container .aboutus .boxenibild .namn .orange {
+  font-family: "DM Sans";
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+.AboutAbout .container .aboutus .boxenibild .litentext {
+  position: relative;
+  left: 15px;
+  top: 5px;
+  height: 35px;
+  width: 190px;
+  font-family: "Inter";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 16px;
+  font-style: italic;
+  text-align: left;
+  color: #191919;
+}
+
+/*Our Services section*/
+.Services {
+  background: #f0efe9;
+}
+.Services .container .grandma {
+  width: 900px;
+  display: grid;
+  height: 500px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  background: #f0efe9;
+}
+.Services .container .boxingrubrik {
+  position: relative;
+  top: 25px;
+  left: 90px;
+  height: 110px;
+  width: 280px;
+}
+.Services .container .boxingrubrik p {
+  position: relative;
+  top: 12px;
+  height: 25px;
+  width: 100px;
+  color: #F94D1C;
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.Services .container .boxingrubrik h4 {
+  position: relative;
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Services .container .boxing1 {
+  margin-top: 150px;
+  width: 170px;
+  height: 180px;
+  background-color: #ffffff;
+  position: relative;
+  right: 185px;
+}
+.Services .container .boxing1 .svartknapp {
+  position: relative;
+  top: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  left: 130px;
+}
+.Services .container .boxing1 .svartknapp .btn-arrow {
+  position: relative;
+  right: 2px;
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  text-decoration: none;
+  padding: 8px 11px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.Services .container .boxing1 .svartknapp .btn-arrow i {
+  margin-left: 3px;
+  font-size: 0.9em;
+}
+.Services .container .boxing1 .svartknapp .btn-arrow:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #191919;
+}
+.Services .container .boxing1 .streck {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border-bottom: #191919 solid;
+  text-align: left;
+  top: 10px;
+  left: 10px;
+}
+.Services .container .boxing1 h6 {
+  position: relative;
+  top: 25px;
+  left: 10px;
+  width: 120px;
+  height: 25px;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Services .container .boxing1 p {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  height: 60px;
+  width: 150px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Services .container .boxing1:hover {
+  background-color: #F9D783;
+}
+.Services .container .boxing2 {
+  margin-top: 150px;
+  width: 170px;
+  height: 180px;
+  background-color: #ffffff;
+  position: relative;
+  right: 180px;
+}
+.Services .container .boxing2 .svartknapp {
+  position: relative;
+  top: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  left: 130px;
+}
+.Services .container .boxing2 .svartknapp .btn-arrow {
+  position: relative;
+  right: 2px;
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  text-decoration: none;
+  padding: 8px 11px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.Services .container .boxing2 .svartknapp .btn-arrow i {
+  margin-left: 3px;
+  font-size: 0.9em;
+}
+.Services .container .boxing2 .svartknapp .btn-arrow:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #191919;
+}
+.Services .container .boxing2 .streck {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border-bottom: #191919 solid;
+  text-align: left;
+  top: 10px;
+  left: 10px;
+}
+.Services .container .boxing2 h6 {
+  position: relative;
+  top: 25px;
+  left: 10px;
+  width: 120px;
+  height: 25px;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Services .container .boxing2 p {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  height: 60px;
+  width: 150px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Services .container .boxing2:hover {
+  background-color: #F9D783;
+}
+.Services .container .boxing3 {
+  margin-top: 150px;
+  width: 170px;
+  height: 180px;
+  background-color: #ffffff;
+  position: relative;
+  right: 180px;
+}
+.Services .container .boxing3 .svartknapp {
+  position: relative;
+  top: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  left: 130px;
+}
+.Services .container .boxing3 .svartknapp .btn-arrow {
+  position: relative;
+  right: 2px;
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  text-decoration: none;
+  padding: 8px 11px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.Services .container .boxing3 .svartknapp .btn-arrow i {
+  margin-left: 3px;
+  font-size: 0.9em;
+}
+.Services .container .boxing3 .svartknapp .btn-arrow:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #191919;
+}
+.Services .container .boxing3 .streck {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border-bottom: #191919 solid;
+  text-align: left;
+  top: 10px;
+  left: 10px;
+}
+.Services .container .boxing3 h6 {
+  position: relative;
+  top: 25px;
+  left: 10px;
+  width: 120px;
+  height: 25px;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Services .container .boxing3 p {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  height: 60px;
+  width: 150px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Services .container .boxing3:hover {
+  background-color: #F9D783;
+}
+.Services .container .boxing4 {
+  margin-top: 150px;
+  width: 170px;
+  height: 180px;
+  background-color: #ffffff;
+  position: relative;
+  right: 180px;
+}
+.Services .container .boxing4 .svartknapp {
+  position: relative;
+  top: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  left: 130px;
+}
+.Services .container .boxing4 .svartknapp .btn-arrow {
+  position: relative;
+  right: 2px;
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  text-decoration: none;
+  padding: 8px 11px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.Services .container .boxing4 .svartknapp .btn-arrow i {
+  margin-left: 3px;
+  font-size: 0.9em;
+}
+.Services .container .boxing4 .svartknapp .btn-arrow:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #191919;
+}
+.Services .container .boxing4 .streck {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border-bottom: #191919 solid;
+  text-align: left;
+  top: 10px;
+  left: 10px;
+}
+.Services .container .boxing4 h6 {
+  position: relative;
+  top: 25px;
+  left: 10px;
+  width: 120px;
+  height: 25px;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Services .container .boxing4 p {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  height: 60px;
+  width: 150px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Services .container .boxing4:hover {
+  background-color: #F9D783;
+}
+.Services .container .knappenkn {
+  position: relative;
+  bottom: 25px;
+  left: 380px;
+  width: 170px;
+  height: 40px;
+}
+.Services .container .knappenkn .btn-provide {
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 18px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.Services .container .knappenkn .btn-provide i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.Services .container .knappenkn .btn-provide:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+
+/*Why choose ut section*/
+.album .container .Father {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  height: 450px;
+  width: 1000px;
+}
+.album .container .Father .son1 {
+  position: relative;
+  left: 80px;
+  top: 20px;
+  height: 440px;
+  width: 300px;
+}
+.album .container .Father .son1 .testrubrik {
+  position: relative;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.album .container .Father .son1 h4 {
+  position: relative;
+  bottom: 10px;
+  width: 240px;
+  height: 100px;
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.album .container .Father .son1 .list {
+  position: relative;
+  bottom: 10px;
+  right: 30px;
+  height: 60px;
+  width: 260px;
+}
+.album .container .Father .son1 .list .ett {
+  position: relative;
+  left: 35px;
+  width: 150px;
+  height: 20px;
+  bottom: 35px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.album .container .Father .son1 .list .tva {
+  position: relative;
+  left: 35px;
+  bottom: 45px;
+  width: 200px;
+  height: 20px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.album .container .Father .son1 .list .fontbild {
+  position: relative;
+  top: 10px;
+  width: 25px;
+  height: 40px;
+  font-size: 12px;
+}
+.album .container .Father .son1 .list .fontbild i {
+  font-size: 10px;
+}
+.album .container .Father .son2 {
+  position: relative;
+  top: 50px;
+  right: 170px;
+  border: black solid;
+  width: 400px;
+  height: 330px;
+}
+.album .container .Father .son2 img {
+  height: 320px;
+  width: 100%;
+}
+.album .container .Father .boxeni {
+  position: relative;
+  background-color: #F0EFE9;
+  height: 250px;
+  width: 600px;
+  z-index: -1;
+  left: 400px;
+  bottom: 290px;
+}
+
+/*Project & Case studies section*/
+.projectandcase .container .Fatherproject {
+  padding-top: 100px;
+  width: 1000px;
+  height: 1000px;
+}
+.projectandcase .container .Fatherproject .section-title {
+  position: relative;
+  width: 560px;
+  height: 100px;
+  text-align: center;
+  left: 215px;
+  bottom: 40px;
+}
+.projectandcase .container .Fatherproject .section-title p {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  top: 20px;
+  left: 150px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 22px;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.projectandcase .container .Fatherproject .section-title h2 {
+  position: relative;
+  width: 550px;
+  height: 50px;
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+}
+.projectandcase .container .Fatherproject .testknappen {
+  position: relative;
+  top: 10px;
+  width: 170px;
+  height: 60px;
+  left: 390px;
+  text-align: center;
+}
+.projectandcase .container .Fatherproject .testknappen .btn-project {
+  position: relative;
+  top: 20px;
+  border: 1px solid #191919;
+  background-color: #191919;
+  color: white;
+  text-decoration: none;
+  padding: 8px 22px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.projectandcase .container .Fatherproject .testknappen .btn-project i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.projectandcase .container .Fatherproject .testknappen .btn-project:hover {
+  background-color: white;
+  border: 1px solid #191919;
+  color: #191919;
+}
+.projectandcase .container .project-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  position: relative;
+  left: 85px;
+  width: 800px;
+  height: 650px;
+}
+.projectandcase .container .project-cases .artikel {
+  height: 280px;
+  width: 385px;
+}
+.projectandcase .container .project-cases .artikel h3 {
+  position: relative;
+  top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  width: 370px;
+  height: 50px;
+}
+.projectandcase .container .project-cases .artikel .strecking {
+  position: relative;
+  top: 5px;
+  width: 380px;
+  height: 5px;
+  bottom: 15px;
+  border-bottom: 1px solid #DAD9D3;
+}
+.projectandcase .container .project-cases .artikel a {
+  position: relative;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  left: 300px;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #191919;
+  width: 170px;
+  height: 150px;
+  top: 30px;
+}
+.projectandcase .container .project-cases .artikel a i {
+  margin-left: 5px;
+}
+.projectandcase .container .project-cases .artikel img {
+  height: 55%;
+  width: 100%;
+}
+
+/*Testimonal section*/
+.test {
+  background-color: RGBA(240, 208, 130, 0.93);
+}
+.test .container .Mamma {
+  position: relative;
+  top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 600px;
+  width: 950px;
+  background-color: white;
+}
+.test .container .Mamma .Rubriktest {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  left: 300px;
+  width: 370px;
+  height: 100px;
+}
+.test .container .Mamma .Rubriktest p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 7px;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #f94d1c;
+}
+.test .container .Mamma .Rubriktest h4 {
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 25px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+  letter-spacing: -1px;
+}
+.test .container .Mamma .barn1 {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  right: 5px;
+  top: 183px;
+}
+.test .container .Mamma .barn1 .stjarna {
+  top: 25px;
+  position: relative;
+  width: 90px;
+  height: 20px;
+}
+.test .container .Mamma .barn1 .stjarna i {
+  position: relative;
+  bottom: 5px;
+  color: #F94D1C;
+  font-size: 8px;
+  gap: 6px;
+  letter-spacing: 2px;
+}
+.test .container .Mamma .barn1 .frie {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  bottom: 0px;
+  top: 0px;
+  color: #F94D1C;
+}
+.test .container .Mamma img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 40px;
+}
+.test .container .Mamma .rubriktext {
+  position: relative;
+  top: 30px;
+  height: 125px;
+  width: 195px;
+  text-align: left;
+  color: firebrick;
+}
+.test .container .Mamma .rubriktext p {
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: italic;
+  text-align: left;
+  letter-spacing: -1px;
+  color: #191919;
+}
+.test .container .Mamma .hec2 {
+  width: 190px;
+  height: 50px;
+  position: relative;
+  left: 50px;
+  bottom: 10px;
+}
+.test .container .Mamma .hec2 h5 {
+  position: relative;
+  top: 10px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.test .container .Mamma .hec2 p {
+  position: relative;
+  top: 5px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.test .container .barn2 {
+  position: relative;
+  right: 30px;
+  bottom: 80px;
+  height: 250px;
+  width: 250px;
+  top: 183px;
+}
+.test .container .barn2 .stjarna {
+  top: 25px;
+  position: relative;
+  width: 90px;
+  height: 20px;
+}
+.test .container .barn2 .stjarna i {
+  position: relative;
+  bottom: 5px;
+  color: #F94D1C;
+  font-size: 8px;
+  gap: 6px;
+  letter-spacing: 2px;
+}
+.test .container .barn2 img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 40px;
+}
+.test .container .barn2 .rubriktext {
+  height: 125px;
+  width: 195px;
+  text-align: left;
+  color: firebrick;
+}
+.test .container .barn2 .rubriktext p {
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: italic;
+  text-align: left;
+  letter-spacing: -1px;
+  color: #191919;
+}
+.test .container .barn2 .hec {
+  width: 190px;
+  height: 50px;
+  position: relative;
+  left: 50px;
+  bottom: 10px;
+}
+.test .container .barn2 .hec h5 {
+  position: relative;
+  top: 10px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.test .container .barn2 .hec p {
+  position: relative;
+  top: 5px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.test .container .barn3 {
+  position: relative;
+  left: 100px;
+  bottom: 117px;
+  height: 250px;
+  width: 250px;
+}
+.test .container .barn3 .stjarna {
+  top: 25px;
+  position: relative;
+  width: 90px;
+  height: 20px;
+}
+.test .container .barn3 .stjarna i {
+  position: relative;
+  bottom: 5px;
+  color: #F94D1C;
+  font-size: 8px;
+  gap: 6px;
+  letter-spacing: 2px;
+}
+.test .container .barn3 img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 40px;
+}
+.test .container .barn3 .rubriktext {
+  height: 125px;
+  width: 195px;
+  text-align: left;
+  color: firebrick;
+}
+.test .container .barn3 .rubriktext p {
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: italic;
+  text-align: left;
+  letter-spacing: -1px;
+  color: #191919;
+}
+.test .container .barn3 .hec {
+  width: 190px;
+  height: 50px;
+  position: relative;
+  left: 50px;
+  bottom: 10px;
+}
+.test .container .barn3 .hec h5 {
+  position: relative;
+  top: 10px;
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.test .container .barn3 .hec p {
+  position: relative;
+  top: 5px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.test .knappemork {
+  position: relative;
+  height: 50px;
+  width: 170px;
+  bottom: 110px;
+  left: 420px;
+}
+.test .knappemork .btn-client {
+  position: relative;
+  top: 5px;
+  border: 1px solid #191919;
+  background-color: #191919;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.test .knappemork .btn-client i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.test .knappemork .btn-client:hover {
+  background-color: white;
+  border: 1px solid #191919;
+  color: #191919;
+}
+
+/*Meet Our Team section*/
+.Title-Title {
+  background-color: RGBA(240, 208, 130, 0.93);
+}
+.Title-Title .container .frifrifri {
+  position: relative;
+  width: 1000px;
+  height: 700px;
+}
+.Title-Title .container .frifrifri .orangei {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 100px;
+  top: 60px;
+}
+.Title-Title .container .frifrifri .orangei p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+.Title-Title .container .frifrifri .rubrik {
+  position: relative;
+  bottom: 10px;
+}
+.Title-Title .container .frifrifri .rubrik h2 {
+  position: absolute;
+  width: 347px;
+  height: 60px;
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 35px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  top: 50px;
+  left: 100px;
+}
+.Title-Title .container .frifrifri .knappe {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  left: 750px;
+  top: 50px;
+}
+.Title-Title .container .frifrifri .knappe .btn-testi {
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 22px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.Title-Title .container .frifrifri .knappe .btn-testi i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.Title-Title .container .frifrifri .knappe .btn-testi:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+.Title-Title .container .frifrifri .parent {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  background-color: RGBA(240, 208, 130, 0.93);
+  width: 810px;
+  height: 450px;
+  top: 100px;
+  left: 100px;
+}
+.Title-Title .container .frifrifri .parent .bild-ett {
+  height: 400px;
+  width: 180px;
+}
+.Title-Title .container .frifrifri .parent .bild-ett h6 {
+  position: relative;
+  top: 20px;
+  width: 128px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Title-Title .container .frifrifri .parent .bild-ett p {
+  position: relative;
+  top: 15px;
+  width: 157px;
+  height: 31px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Title-Title .container .frifrifri .parent .bild-ett img {
+  height: 60%;
+  width: 100%;
+}
+.Title-Title .container .frifrifri .parent .bild-två {
+  height: 400px;
+  width: 180px;
+}
+.Title-Title .container .frifrifri .parent .bild-två h6 {
+  position: relative;
+  top: 20px;
+  width: 128px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Title-Title .container .frifrifri .parent .bild-två p {
+  position: relative;
+  top: 15px;
+  width: 157px;
+  height: 31px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Title-Title .container .frifrifri .parent .bild-två img {
+  height: 60%;
+  width: 100%;
+}
+.Title-Title .container .frifrifri .parent .bild-tre {
+  height: 400px;
+  width: 180px;
+}
+.Title-Title .container .frifrifri .parent .bild-tre h6 {
+  position: relative;
+  top: 20px;
+  width: 134px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Title-Title .container .frifrifri .parent .bild-tre p {
+  position: relative;
+  top: 15px;
+  width: 157px;
+  height: 31px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Title-Title .container .frifrifri .parent .bild-tre img {
+  height: 60%;
+  width: 100%;
+}
+.Title-Title .container .frifrifri .parent .bild-fyra {
+  height: 400px;
+  width: 180px;
+}
+.Title-Title .container .frifrifri .parent .bild-fyra h6 {
+  position: relative;
+  top: 20px;
+  width: 128px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.Title-Title .container .frifrifri .parent .bild-fyra p {
+  position: relative;
+  top: 15px;
+  width: 157px;
+  height: 31px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Title-Title .container .frifrifri .parent .bild-fyra img {
+  height: 60%;
+  width: 100%;
+}
+
+/*Article & News Section*/
+.GetEvery .container .parentmothernews {
+  width: 1000px;
+  height: 550px;
+}
+.GetEvery .container .parentmothernews .rubriken {
+  position: relative;
+  top: 20px;
+  height: 60px;
+  width: 500px;
+  left: 100px;
+}
+.GetEvery .container .parentmothernews .rubriken h5 {
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.GetEvery .container .parentmothernews .rubrikp {
+  position: relative;
+  top: 20px;
+  left: 100px;
+  width: 120px;
+  height: 30px;
+}
+.GetEvery .container .parentmothernews .rubrikp p {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 17px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #f94d1c;
+}
+.GetEvery .container .parentmothernews .knappennu {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  z-index: 4;
+  top: 120px;
+  left: 740px;
+}
+.GetEvery .container .parentmothernews .knappennu .btn-everyarticle {
+  position: relative;
+  left: 0px;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 22px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.GetEvery .container .parentmothernews .knappennu .btn-everyarticle i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.GetEvery .container .parentmothernews .knappennu .btn-everyarticle:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+.GetEvery .container .Newsparent {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  left: 100px;
+  bottom: 160px;
+  width: 800px;
+  height: 500px;
+}
+.GetEvery .container .Newsparent .rubriken {
+  height: 80px;
+  width: 300px;
+  border: #000000 solid;
+}
+.GetEvery .container .Newsparent .rubrikp {
+  position: relative;
+  left: 200px;
+  width: 100px;
+  height: 60px;
+  border: #000000 solid;
+}
+.GetEvery .container .Newsparent .rubrikh {
+  position: relative;
+  width: 300px;
+  height: 70px;
+  border: #000000 solid;
+  left: 200px;
+}
+.GetEvery .container .Newsparent .newsone {
+  position: relative;
+  top: 200px;
+  width: 250px;
+  height: 250px;
+}
+.GetEvery .container .Newsparent .newsone h6 {
+  position: relative;
+  bottom: 45px;
+  height: 40px;
+  width: 170px;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.GetEvery .container .Newsparent .newsone .one {
+  bottom: 30px;
+  position: relative;
+  width: 70px;
+  height: 20px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 16px;
+  font-style: normal;
+  text-align: left;
+  color: #6a6c71;
+}
+.GetEvery .container .Newsparent .newsone .two {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  bottom: 50px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: -1px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.GetEvery .container .Newsparent .newsone .kols {
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+.GetEvery .container .Newsparent .newsone .yellowboxing {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  bottom: 120px;
+  left: 5px;
+  background-color: #F9D783;
+  z-index: 2;
+}
+.GetEvery .container .Newsparent .newsone .yellowboxing .over {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  top: 9px;
+  left: 12px;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  z-index: 4;
+}
+.GetEvery .container .Newsparent .newsone .yellowboxing .under {
+  position: relative;
+  width: 20px;
+  height: 12px;
+  bottom: 14px;
+  left: 12px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: -1px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.GetEvery .container .Newsparent .newstwo {
+  position: relative;
+  top: 200px;
+  width: 250px;
+  height: 250px;
+}
+.GetEvery .container .Newsparent .newstwo h6 {
+  position: relative;
+  bottom: 45px;
+  height: 40px;
+  width: 180px;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.GetEvery .container .Newsparent .newstwo .one {
+  bottom: 30px;
+  position: relative;
+  width: 70px;
+  height: 20px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 16px;
+  font-style: normal;
+  text-align: left;
+  color: #6a6c71;
+}
+.GetEvery .container .Newsparent .newstwo .two {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  bottom: 50px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: -1px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.GetEvery .container .Newsparent .newstwo .kols {
+  height: 50%;
+  width: 100%;
+}
+.GetEvery .container .Newsparent .newstwo .yellowboxing {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  bottom: 120px;
+  left: 5px;
+  background-color: #F9D783;
+  z-index: 2;
+}
+.GetEvery .container .Newsparent .newstwo .yellowboxing .over {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  top: 9px;
+  left: 12px;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  z-index: 4;
+}
+.GetEvery .container .Newsparent .newstwo .yellowboxing .under {
+  position: relative;
+  width: 20px;
+  height: 12px;
+  bottom: 14px;
+  left: 12px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: -1px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.GetEvery .container .Newsparent .newsthree {
+  position: relative;
+  top: 200px;
+  width: 250px;
+  height: 250px;
+}
+.GetEvery .container .Newsparent .newsthree h6 {
+  position: relative;
+  bottom: 45px;
+  height: 40px;
+  width: 170px;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.GetEvery .container .Newsparent .newsthree .one {
+  bottom: 30px;
+  position: relative;
+  width: 70px;
+  height: 20px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 16px;
+  font-style: normal;
+  text-align: left;
+  color: #6a6c71;
+}
+.GetEvery .container .Newsparent .newsthree .two {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  bottom: 50px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: -1px;
+  color: rgba(25, 25, 25, 0.7);
+}
+.GetEvery .container .Newsparent .newsthree .kols {
+  height: 50%;
+  width: 100%;
+}
+.GetEvery .container .Newsparent .newsthree .yellowboxing {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  bottom: 120px;
+  left: 5px;
+  background-color: #F9D783;
+  z-index: 2;
+}
+.GetEvery .container .Newsparent .newsthree .yellowboxing .over {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  top: 9px;
+  left: 12px;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  z-index: 4;
+}
+.GetEvery .container .Newsparent .newsthree .yellowboxing .under {
+  position: relative;
+  width: 20px;
+  height: 12px;
+  bottom: 14px;
+  left: 12px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: -1px;
+  color: rgba(25, 25, 25, 0.7);
+}
+
+/*SearchBox*/
+.searchbox {
+  background-color: #F0EFE9;
+}
+.searchbox .fathersearch {
+  position: relative;
+  right: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #F0EFE9;
+  width: 1100px;
+  height: 170px;
+}
+.searchbox .fathersearch .leftleft {
+  position: relative;
+  width: 560px;
+  height: 160px;
+}
+.searchbox .fathersearch .leftleft h2 {
+  position: relative;
+  top: 60px;
+  left: 100px;
+  width: 430px;
+  height: 50px;
+}
+.searchbox .fathersearch .rightright .searchingbox {
+  position: relative;
+  top: 65px;
+  left: 40px;
+  width: 220px;
+  height: 40px;
+  border-radius: 25px;
+  padding: 5px 10px;
+  background-color: white;
+}
+.searchbox .fathersearch .rightright .searchingbox i {
+  position: absolute;
+  top: 10px;
+  left: 3px;
+}
+.searchbox .fathersearch .rightright .searchingbox input {
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 14px;
+  margin-left: 12px;
+}
+.searchbox .fathersearch .rightright .knappsubscribe {
+  position: relative;
+  top: 20px;
+  left: 270px;
+  width: 120px;
+  height: 50px;
+}
+.searchbox .fathersearch .rightright .knappsubscribe .btn-subscribe {
+  position: absolute;
+  top: 5px;
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.searchbox .fathersearch .rightright .knappsubscribe .btn-subscribe i {
+  margin-left: 4px;
+  font-size: 0.9em;
+}
+.searchbox .fathersearch .rightright .knappsubscribe .btn-subscribe:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #e5eaec;
+}
+
+/*Footer*/
+.footer {
+  background-color: #0E1021;
+}
+
+.backgroundfot {
+  width: 1000px;
+  height: 300px;
+  background-color: #0E1021;
+}
+
+.fatherfooter {
+  position: relative;
+  left: 100px;
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0E1021;
+}
+.fatherfooter .fot-one {
+  width: 200px;
+  height: 200px;
+}
+.fatherfooter .fot-one img {
+  position: relative;
+  height: 40px;
+  width: 110px;
+}
+.fatherfooter .fot-one p {
+  position: relative;
+  top: 5px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 26px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fatherfooter .fot-two {
+  width: 130px;
+  height: 200px;
+}
+.fatherfooter .fot-two p {
+  position: relative;
+  left: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.fatherfooter .fot-two ul {
+  font-family: "Inter";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fatherfooter .fot-three {
+  width: 130px;
+  height: 200px;
+}
+.fatherfooter .fot-three p {
+  position: relative;
+  left: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.fatherfooter .fot-three ul {
+  font-family: "Inter";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fatherfooter .fot-four {
+  width: 130px;
+  height: 200px;
+}
+.fatherfooter .fot-four p {
+  position: relative;
+  left: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.fatherfooter .fot-four ul {
+  font-family: "Inter";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fatherfooter .fot-five {
+  width: 130px;
+  height: 200px;
+}
+.fatherfooter .fot-five p {
+  position: relative;
+  left: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.fatherfooter .fot-five ul {
+  font-family: "Inter";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 10px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fatherfooter .waves {
+  height: 260px;
+  width: 130px;
+}
+.fatherfooter .waves img {
+  width: 320px;
+  height: 100px;
+  top: 200px;
+  right: 140px;
+  position: relative;
+}
+
+/*UnderFooter*/
+.underfooter {
+  background-color: #0E1021;
+}
+
+.underbackground {
+  width: 1300px;
+  background-color: #0E1021;
+}
+.underbackground .underunder {
+  position: relative;
+  left: 100px;
+  top: 0px;
+  height: 50px;
+  width: 870px;
+  display: flex;
+  justify-content: space-between;
+}
+.underbackground .underunder .undertext {
+  position: relative;
+  top: 20px;
+  width: 300px;
+  height: 20px;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 16px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.underbackground .underunder .socialone {
+  height: 20px;
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
